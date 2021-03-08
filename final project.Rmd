@@ -2,4 +2,8 @@
 title: "final project"
 output: html_document
 ---
-testing
+```{r}
+data <- read.csv('~/Downloads/crdt_data.csv')
+head(data)
+```
+
