@@ -3,7 +3,7 @@ title: "final project"
 output: html_document
 ---
 ```{r}
-data <- read.csv('~/Downloads/crdt_data.csv')
-head(data)
+red_dat <- read.csv('~/Downloads/winequality-red.csv')
+white_dat <- read.csv('~/Downloads/winequality-white.csv')
 ```
 
